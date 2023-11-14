@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package xormadapter
+package xormplusadapter
 
 import (
 	"errors"
@@ -23,7 +23,7 @@ import (
 	"github.com/casbin/casbin/v2/model"
 	"github.com/casbin/casbin/v2/persist"
 	"github.com/lib/pq"
-	"xorm.io/xorm"
+	"github.com/xormplus/xorm"
 )
 
 // TableName  if tableName=="" , adapter will use default tablename "casbin_rule".
